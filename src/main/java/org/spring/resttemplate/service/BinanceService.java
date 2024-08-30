@@ -1,7 +1,7 @@
 package org.spring.resttemplate.service;
 
 import lombok.RequiredArgsConstructor;
-import org.spring.resttemplate.dto.AvgPriceDto;
+import org.spring.resttemplate.dto.response.AvgPriceDto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

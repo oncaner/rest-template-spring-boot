@@ -1,13 +1,10 @@
 package org.spring.resttemplate.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.spring.resttemplate.dto.UserDto;
+import org.spring.resttemplate.dto.response.UserDto;
 import org.spring.resttemplate.service.UserService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 

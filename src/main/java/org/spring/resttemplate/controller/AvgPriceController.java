@@ -1,7 +1,7 @@
 package org.spring.resttemplate.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.spring.resttemplate.dto.AvgPriceDto;
+import org.spring.resttemplate.dto.response.AvgPriceDto;
 import org.spring.resttemplate.service.BinanceService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

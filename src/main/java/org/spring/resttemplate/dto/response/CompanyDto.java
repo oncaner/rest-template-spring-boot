@@ -1,4 +1,4 @@
-package org.spring.resttemplate.dto;
+package org.spring.resttemplate.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
